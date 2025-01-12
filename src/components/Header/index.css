@@ -1,0 +1,19 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+.arrow-address-container{
+    display: flex;
+    align-items: center;
+}
+.address-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.cart-container{
+    display: flex;
+}

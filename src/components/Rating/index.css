@@ -1,0 +1,48 @@
+.rating-container{
+    padding: 30px;
+}
+.rating-ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rating-li{
+    margin: 10px;
+    background-color: #FBFCFF;
+    border-radius: 10px;
+    line-height: 20px;
+    width: 45%;
+    padding: 20px;
+}
+@media screen and (max-width:900px) {
+    .rating-li{
+        width: 90%;
+    }
+}
+.rating-heading{
+    font-family: 'Lexend Deca';
+    font-size: 16px;
+    font-weight: 600;
+    color: #050A4E;
+}
+.rating-content{
+    font-family: 'Lexend Deca';
+    font-size: 14px;
+    color: #47566A;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.rating-name{
+    font-size: 14px;
+    color: #050A4E;
+    font-weight: bold;
+}
+.days{
+    font-size: 12px;
+    color: #969696;
+}

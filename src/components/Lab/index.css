@@ -1,0 +1,31 @@
+.img-text-container1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    background-color: lightblue;
+    margin-left: 8px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    
+    
+
+}
+.text{
+    font-size: 20px;
+    color: #050A4E;
+    font-weight: 500;
+    font-family: Lexend Deca;
+    width: auto;
+}
+.img{
+    align-self: flex-start;
+}

@@ -1,0 +1,25 @@
+.package-ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+}
+.package-container{
+    padding: 30px;
+}
+.package-ul-li{
+    margin: 10px;
+    box-shadow: 0px 0px 5.93px 0px #2C2C2C1A;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.package-heading{
+    color: #050A4E;
+    font-size: 16px;
+}
+.package-img{
+    height: 150px;
+    width: 150px;
+}

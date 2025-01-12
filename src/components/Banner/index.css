@@ -1,0 +1,17 @@
+.banner-ul{
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    overflow: auto;
+}
+.banner-ul li{
+    display: flex;
+    justify-content: center;
+}
+.banner-ul img{
+    width: 95vw;
+    margin: 10px;
+}
+.banner-ul::-webkit-scrollbar {
+    display: none;
+  }
